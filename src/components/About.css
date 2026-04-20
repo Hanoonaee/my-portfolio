@@ -1,0 +1,16 @@
+.about{
+    padding: 80px 60px;
+    background-color: rgba(12, 1, 27, 0.514);
+   margin: 20px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px rgb(30, 30, 30);
+}
+p{
+    max-width: 1000px;
+    line-height: 1.9;
+    font-size: 17px;
+
+}
+.p-thinlines{
+    color: #707170;
+}

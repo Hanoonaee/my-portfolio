@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #0f172a;
+  background: #08002e;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -9,15 +9,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
-  background: #111827;
+  padding: 20px 60px  ;
+  background:#08002e;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 2px 2px 2px  rgb(6, 0, 35);
+ 
 }
 
 .logo {
-  color: #38bdf8;
+  color: #505150;
   font-size: 22px;
 }
 
@@ -34,5 +36,5 @@ body {
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: #4c4d4d;
 }

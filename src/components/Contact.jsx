@@ -1,11 +1,45 @@
+import "./Contact.css";
+
 function Contact() {
   return (
-    <section id="contact" style={{ padding: "80px 60px" }}>
-      <h2>Contact Me</h2>
+    <section className="contact" id="contacts">
+      <div className="contact-content">
+        <p className="contact-small">Get In Touch</p>
 
-      <p>Email: yourmail@gmail.com</p>
-      <p>LinkedIn: linkedin.com/in/yourname</p>
-      <p>GitHub: github.com/yourname</p>
+        <h2>Let’s Build Something Great Together</h2>
+
+        <p className="contact-text">
+          I’m a fresher software developer passionate about building clean,
+          user-friendly, and impactful solutions. I’m currently open to
+          entry-level opportunities, internships, freelance work, and
+          collaborations where I can learn, grow, and contribute my skills
+          in web development and programming.
+        </p>
+
+        <div className="contact-buttons">
+          <a href="mailto:hanoonaedassery@gmail.com" className="btn primary">
+            Send Email
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/hanoona-e/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn secondary"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/Hanoonaee"
+            target="_blank"
+            rel="noreferrer"
+            className="btn secondary"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
     </section>
   );
 }

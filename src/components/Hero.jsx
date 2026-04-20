@@ -1,21 +1,31 @@
-import './Hero.css';
+import "./Hero.css";
 
 function Hero() {
   return (
-    <section id="home" className="hero">
-      <h1>Hi, I'm Hanoona</h1>
+    <section className="hero" id="home">
+      <div className="hero-content">
 
-      <h2>Java Full Stack Developer</h2>
+        <h4 className="hero-small">Hey, I'm</h4>
 
-      <p>
-        Passionate about building modern web applications and solving
-        real-world problems through code.
-      </p>
+        <h1>Hanoona</h1>
 
-      <div className="hero-buttons">
-        <a href="#projects" className="btn primary">
-          View Projects
-        </a>
+        <h4>Developer</h4>
+
+        <p className="hero-text">
+          Building modern web applications with clean design,
+          strong backend logic, and real-world impact.
+        </p>
+
+        <div className="hero-buttons">
+          <a href="#projects" className="btn primary">
+            View Projects
+          </a>
+
+          <a href="#contact" className="btn secondary">
+            Let's Talk
+          </a>
+        </div>
+
       </div>
     </section>
   );

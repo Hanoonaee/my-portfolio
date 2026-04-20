@@ -1,8 +1,9 @@
+import "./Skills.css"
 function Skills() {
   const skills = ["Java", "React", "SQL", "HTML", "CSS", "JavaScript"];
 
   return (
-    <section id="skills" style={{ padding: "80px 60px" }}>
+    <section className="skills" id="skill">
       <h2>Skills</h2>
 
       <div style={{
