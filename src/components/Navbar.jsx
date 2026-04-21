@@ -1,17 +1,24 @@
+import "./Navbar.css";
 
-import  './Navbar.css';
-function Navbar(){
-  return(
-    <nav className='navbar'>
-      <h2 className='logo'>H</h2>
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <a href="#home" className="logo">
+        Hanoona
+      </a>
 
-      <ul className='nav-links'>
-        <li><a href="#aboutt">About</a></li>
-        <li><a href="#skill">Skills</a></li>
+      <ul className="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <a href="/hanoona_resume_...pdf" className="resume-btn" target="_blank">
+        Resume
+      </a>
     </nav>
   );
-} 
+}
+
 export default Navbar;

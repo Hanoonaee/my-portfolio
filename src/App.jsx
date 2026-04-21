@@ -14,17 +14,17 @@ function App() {
     //   <p>Aspiring Java Full Stack Developer</p>
     // </div>
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+  <Navbar />
+  <Hero />
+  <About />
+  <Skills />
+  <Projects />
+  <Contact />
 
-      <footer style={{ textAlign: "center", padding: "20px" }}>
-        © 2026 Hanoona. All rights reserved.
-      </footer>
-    </>
+  <footer>
+    © 2026 Hanoona E. Built with React.
+  </footer>
+</>
   );
 }
 

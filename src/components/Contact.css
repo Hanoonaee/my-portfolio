@@ -58,3 +58,24 @@
 .btn:hover {
   transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .contact-text {
+    font-size: 15px;
+  }
+
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

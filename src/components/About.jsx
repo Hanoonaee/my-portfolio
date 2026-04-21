@@ -1,20 +1,31 @@
-import "./About.css"
+import "./About.css";
 
 function About() {
   return (
-    <section className="about" id="aboutt">
-      <p className="p-thinlines">Behind the Code</p>
-      <h1>Turning Curiosity Into Capability</h1>
-      <p>
-        I'm a BTech graduate with a strong interest in software development and
-        building impactful digital solutions. My journey into tech has been
-        driven by curiosity, discipline, and continuous learning. I enjoy
-        creating modern web applications, solving real-world problems through
-        code, and improving my skills in Java, React, SQL, and full stack
-        development. Currently focused on building meaningful projects and
-        preparing for opportunities where I can contribute and grow as a
-        developer.
-      </p>
+    <section className="about" id="about">
+      <div className="about-box">
+        <p className="section-tag">Behind the Code</p>
+
+        <h2>Turning Curiosity Into Capability</h2>
+
+        <p className="about-text">
+          I'm a BTech graduate in Electrical and Electronics Engineering who
+          discovered a strong passion for software development and problem
+          solving. What began as curiosity grew into consistent learning,
+          hands-on projects, and real industry experience.
+        </p>
+
+        <p className="about-text">
+          During my internship at Tefora Software Solutions, I worked on
+          converting Figma designs into responsive web interfaces and improved
+          my understanding of frontend development workflows.
+        </p>
+
+        <p className="about-text">
+          I’m now focused on starting my software career, contributing to
+          meaningful products, and growing through real-world challenges.
+        </p>
+      </div>
     </section>
   );
 }

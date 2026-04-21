@@ -5,15 +5,15 @@ function Hero() {
     <section className="hero" id="home">
       <div className="hero-content">
 
-        <h4 className="hero-small">Hey, I'm</h4>
+        <p className="hero-small">Hello, I'm</p>
 
-        <h1>Hanoona</h1>
+        <h1>Hanoona E</h1>
 
-        <h4>Developer</h4>
+        <h2>Building Responsive Web Apps with React & Java</h2>
 
         <p className="hero-text">
-          Building modern web applications with clean design,
-          strong backend logic, and real-world impact.
+          BTech graduate focused on Java Full Stack Development, building
+          responsive web applications, and solving real-world problems through clean code.
         </p>
 
         <div className="hero-buttons">
@@ -22,7 +22,7 @@ function Hero() {
           </a>
 
           <a href="#contact" className="btn secondary">
-            Let's Talk
+            Let's Connect
           </a>
         </div>
 

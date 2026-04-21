@@ -1,45 +1,67 @@
+import "./Projects.css";
+
 function Projects() {
   const projects = [
     {
-      title: "Job Portal System",
-      desc: "Full stack platform for job seekers and recruiters."
+      title: "Figma Frontpage",
+      tech: "HTML • CSS • JavaScript",
+      desc: "Responsive landing page built by converting a Figma design into a clean and pixel-perfect website.",
+      live: "https://projectone-figmafrontpage.netlify.app",
+      github: "https://github.com/Hanoonaee/project-one-figma-first-page"
     },
     {
-      title: "Expense Tracker",
-      desc: "Track income, expenses and monthly reports."
-    },
-    {
-      title: "Real Estate Website",
-      desc: "Responsive modern real estate landing page."
+      title: "Real Estate Homepage",
+      tech: "HTML • CSS • JavaScript",
+      desc: "Modern real estate homepage with responsive layout, clean sections, and mobile-friendly design.",
+      live: "https://projecttwo-frontend.netlify.app",
+      github: "https://github.com/Hanoonaee/project-two--real-estate-dream-page"
     }
   ];
 
   return (
-    <section id="projects" style={{ padding: "80px 60px" }}>
-      <h2>Projects</h2>
+    <section className="projects" id="projects">
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))",
-          gap: "20px",
-          marginTop: "25px"
-        }}
-      >
+      <p className="section-tag">My Work</p>
+      <h2>Featured Projects</h2>
+
+      <div className="projects-grid">
+
         {projects.map((item, index) => (
-          <div
-            key={index}
-            style={{
-              background: "#1e293b",
-              padding: "20px",
-              borderRadius: "12px"
-            }}
-          >
+          <div className="project-card" key={index}>
+
             <h3>{item.title}</h3>
-            <p>{item.desc}</p>
+
+            <p className="project-tech">{item.tech}</p>
+
+            <p className="project-desc">{item.desc}</p>
+
+            <div className="project-links">
+
+              <a
+                href={item.live}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Live Demo →
+              </a>
+
+              <a
+                href={item.github}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link secondary-link"
+              >
+                GitHub →
+              </a>
+
+            </div>
+
           </div>
         ))}
+
       </div>
+
     </section>
   );
 }
